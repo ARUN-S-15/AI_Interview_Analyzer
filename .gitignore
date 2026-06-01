@@ -1,0 +1,68 @@
+# Model weights
+*.pt
+*.pth
+*.onnx
+*.weights
+
+# Dataset directories (too large)
+DATASET/
+final_dataset/
+final_dataset_unique/
+final_dataset_unique_fixed/
+
+# Output directories (generated files)
+full_output/
+full_output_unique/
+large_output_2k/
+medium_output/
+sample_output/
+test_json2txt/
+runs/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.env.local
+.env.*.local

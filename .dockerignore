@@ -1,0 +1,12 @@
+dataset/
+outputs/
+.git/
+__pycache__/
+*.pyc
+*.pyo
+*.log
+*.mp4
+*.avi
+*.wav
+*.zip
+*.rar
